@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "icecraft:scatter_flat_air_feature"
+		},
+		"places_feature": "icecraft:flat_air_feature",
+		"iterations": 10240,
+		"x": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		},
+		"y": {
+			"distribution": "fixed_grid",
+			"extent": [0, 40]
+		},
+		"z": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		}
+	}
+}

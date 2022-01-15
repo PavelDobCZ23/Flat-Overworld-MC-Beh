@@ -1,0 +1,35 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "icecraft:overworld_flat_more_stone_feature",
+			"places_feature": "icecraft:scatter_flat_stone_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+						  "test": "has_biome_tag",
+						  "operator": "==",
+						  "value": "extreme_hills"
+						},
+						{
+						  "test": "has_biome_tag",
+						  "operator": "==",
+						  "value": "mountain"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "xzy",
+			"x": 0,
+			"y": 62,
+			"z": 0
+		}
+	}
+}

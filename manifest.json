@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Let's make Minecraft's overworld flat! §1Made by PavelDobCZ23",
+        "name": "Flat Overworld Add-on",
+        "uuid": "a0c045b4-e34f-4253-a8fc-759465ea16f2",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 16, 100 ]
+    },
+    "modules": [
+        {
+            "description": "Let's make Minecraft's overworld flat! §1Made by PavelDobCZ23",
+            "type": "data",
+            "uuid": "021afe90-eaae-4dd9-a849-1147d44a3c97",
+            "version": [1, 0, 0]
+        }
+    ]
+}

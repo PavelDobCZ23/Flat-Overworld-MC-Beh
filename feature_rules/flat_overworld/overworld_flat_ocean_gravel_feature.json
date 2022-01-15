@@ -1,0 +1,35 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "icecraft:overworld_flat_ocean_gravel_feature",
+			"places_feature": "icecraft:scatter_flat_ocean_gravel_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+						  "test": "has_biome_tag",
+						  "operator": "==",
+						  "value": "ocean"
+						},
+						{
+						  "test": "has_biome_tag",
+						  "operator": "!=",
+						  "value": "warm"
+						}
+					  ]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "xzy",
+			"x": 0,
+			"y": 58,
+			"z": 0
+		}
+	}
+}

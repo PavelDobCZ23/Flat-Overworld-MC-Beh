@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "icecraft:scatter_flat_sand_feature"
+		},
+		"places_feature": "icecraft:flat_sand_feature",
+		"iterations": 768,
+		"x": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		},
+        "y": {
+			"distribution": "fixed_grid",
+			"extent": [0, 2]
+		},
+		"z": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "icecraft:scatter_flat_mycelium_feature"
+		},
+		"places_feature": "icecraft:flat_mycelium_feature",
+		"iterations": 256,
+		"x": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		},
+        "y": 0,
+		"z": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		}
+	}
+}

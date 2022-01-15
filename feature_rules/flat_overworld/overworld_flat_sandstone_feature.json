@@ -1,0 +1,35 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "icecraft:overworld_flat_sandstone_feature",
+			"places_feature": "icecraft:scatter_flat_sandstone_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+						  "test": "has_biome_tag",
+						  "operator": "==",
+						  "value": "beach"
+						},
+						{
+						  "test": "has_biome_tag",
+						  "operator": "==",
+						  "value": "desert"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "xzy",
+			"x": 0,
+			"y": 60,
+			"z": 0
+		}
+	}
+}

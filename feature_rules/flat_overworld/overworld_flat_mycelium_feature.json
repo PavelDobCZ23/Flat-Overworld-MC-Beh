@@ -1,0 +1,30 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "icecraft:overworld_flat_mycelium_feature",
+			"places_feature": "icecraft:scatter_flat_mycelium_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+						  "test": "has_biome_tag",
+						  "operator": "==",
+						  "value": "mushroom_island"
+						}
+					  ]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "xzy",
+			"x": 0,
+			"y": 64,
+			"z": 0
+		}
+	}
+}
